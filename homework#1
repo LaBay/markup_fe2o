@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Обо мне</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		
+		body{
+
+			width: 30%;
+			height: 100%;
+			padding-left: 30%;
+			background-color: ivory;
+			
+		}
+
+		.main1{
+
+			padding: 20px;
+			text-align: center;
+			align: center;
+			box-shadow: 0 0 3px grey;
+			border-bottom: 1px solid grey;
+			
+		}
+
+		.main2{
+
+			margin: 20px;
+			background-color: white;
+
+		} 
+
+		div{
+
+			background-color: white;
+			border-bottom: 1px solid black;
+			
+		}
+
+		div:last-child{
+
+			border-bottom: none;
+		}
+
+		h1{
+
+			text-align: center;
+		}
+
+		img{
+
+			margin: auto;
+			width: 200px;
+			height: auto;
+		}
+
+		p, li{
+
+			text-align: left;
+			padding-left: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="main1">
+		<div class="main2">
+			<div>
+				<h1>Лабай Андрей Владимирович</h1>
+				<img src="https://scontent.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/12418028_1265280393499039_5012552319670738981_n.jpg?oh=fd6b00593348de6fe770f58d102821a7&oe=572666F1">
+				<p>Сотрудник банка</p>
+			</div>
+			<div>
+				<p>Хочу учить фронтенд, потому что:</p>
+				<ul>
+					<li>Всю жизнь мечтал программировать</li>
+					<li>Устал бумажки перекладывать</li>
+					<li>Хочу работать в Google</li>
+				</ul>
+			</div>
+			<div>
+				<p>Мой контактный телефон</p>
+				<p>+380505911747<br><br></p>
+				<p>Мой профиль Вконтакте<br></p>
+				<p><a target="_blank" href="http://vk.com/id24898720">vk.com</a></p>
+			</div>
+			<div style="">
+				<p>Мой фидбек:<br></p>
+				<p>Могу выдать кредит или сверстать сайт</p>
+			</div>
+		</div>	
+	</div>
+	
+</body>
+</html>
